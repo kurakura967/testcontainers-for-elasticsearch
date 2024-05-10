@@ -1,0 +1,39 @@
+{
+  "took": 122,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "test_index",
+        "_id": "1",
+        "_score": 1,
+        "_source": {
+          "id": "1",
+          "title": "title1",
+          "artist": "artist1"
+        }
+      },
+      {
+        "_index": "test_index",
+        "_id": "2",
+        "_score": 1,
+        "_source": {
+          "id": "2",
+          "title": "title2",
+          "artist": "artist2"
+        }
+      }
+    ]
+  }
+}

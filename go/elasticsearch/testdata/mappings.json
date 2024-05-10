@@ -1,0 +1,21 @@
+{
+  "mappings":{
+    "dynamic": false,
+    "properties":{
+      "id": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "keyword"
+      },
+      "artist": {
+        "type": "keyword"
+      }
+    }
+  },
+  "settings": {
+    "refresh_interval": "60s",
+    "number_of_shards": "1",
+    "auto_expand_replicas": "0-all"
+  }
+}
