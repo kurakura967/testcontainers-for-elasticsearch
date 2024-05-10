@@ -1,5 +1,5 @@
 # [Golang]Testcontainers-for-elasticsearch
-[Testcontainers](https://java.testcontainers.org/modules/elasticsearch/)を使ったElasticsearchのテスト環境の構築と、[go-elasticsearch](https://github.com/elastic/go-elasticsearch)を使った単体テストのサンプルです。
+[Testcontainers](https://golang.testcontainers.org/modules/elasticsearch/)を使ったElasticsearchのテスト環境の構築と、[go-elasticsearch](https://github.com/elastic/go-elasticsearch)を使った単体テストのサンプルです。
 
 ## 開発環境
 ```bash
